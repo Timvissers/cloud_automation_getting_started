@@ -1,0 +1,4 @@
+.idea
+.terraform
+*.backup
+*.tfstate       # should be in a remote backend
