@@ -38,9 +38,10 @@ Terraform supports provisioners as well.
 ### link the keypair to the instance (done via terraform)
 - via the aws_key_pair resource and adding the keyname to the aws_instance
 
-### add a security group in bound rule (done via terraform)
+### add a security group inbound rule (done via terraform)
 - by default, you cannot connect to the instance due to security groups: the default security group is in use and it does not allow your inbound connection. It allows only access from other machines inside the default security group. For now, add your remote ip to the default security group. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html
 - via the aws_vpc and aws_default_security_group resources
+- how about egress: there should be no outgoing traffic for our current security group setup
 
 ### connect
 - connect to the outputted ip, or ec2-<outputtedIPseparatedbydashes>.eu-central-1.compute.amazonaws.com
