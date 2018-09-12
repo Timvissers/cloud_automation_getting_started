@@ -1,4 +1,4 @@
-# TERRAFORM + AWS:
+# TERRAFORM + AWS BASICS
 https://www.terraform.io/intro/index.html
 
 ## https://www.terraform.io/intro/getting-started/install.html

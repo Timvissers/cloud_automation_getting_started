@@ -1,4 +1,4 @@
-# AWS BASTION
+# TERRAFORM + AWS BASTION
 
 https://docs.aws.amazon.com/quickstart/latest/linux-bastion/welcome.html
 

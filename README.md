@@ -1,58 +1,66 @@
-# 01. [TERRAFORM + AWS BASICS](01/README01.md)
+# TERRAFORM + AWS
 
-# 02. [AWS VPC](02/README02.md)
+## 01. [TERRAFORM + AWS BASICS](01/README01.md)
 
-# 03. [AWS BASTION](03/README03.md)
+## 02. [TERRAFORM + AWS VPC](02/README02.md)
 
-
-
-
+## 03. [TERRAFORM + AWS BASTION](03/README03.md)
 
 
-# 03. TERRAFORM + AZURE
-TODO + MULTIPLE ENV
 
-# 04. DOCKER OPTIONS AWS
-TODO + PACKER
+
+
+
+
+
+
+
+
+
+
+# 11. TERRAFORM + AZURE
++MULTIPLE ENV
+
+# 21. DOCKER OPTIONS AWS
++PACKER
 https://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/
 https://medium.com/devopsion/5-ways-of-using-docker-on-aws-7d91b31caddc
 eks
 https://aws.amazon.com/docker/
 
-# 05. SWARMKIT OPTIONS AWS
-TODO
+# 22. SWARMKIT OPTIONS AWS
 https://caylent.com/high-availability-docker-swarm-aws/
 https://github.com/docker/swarmkit
 
+# 23. KUBERNETES OPTIONS AWS
 
-# 06. KUBERNETES OPTIONS AWS
-TODO
+# 31. PRODUCTIONREADY AWS: handle change in terraform state, ...
+
+# 32. ORGANIZING TERRAFORM
+https://www.terraform.io/docs/enterprise/workspaces/repo-structure.html
+https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973
+
+# 33. terraform in ci?
+workspaces and ci: https://dev.to/frosnerd/continuous-delivery-on-aws-with-terraform-and-travis-ci-3914
+with docker: https://devblog.xero.com/ci-cd-with-jenkins-pipelines-part-1-net-core-application-deployments-on-aws-ecs-987b8e032aa0 and https://devblog.xero.com/ci-cd-with-jenkins-pipelines-part-2-managing-infrastructure-with-terraform-and-docker-bd4b81554aa7
+
+# 41. Tools: use a proper terminal: TODO setup requirements in mac (vi, cmd, ...)
+
+# 42. naming conventions
+
+# 51. look for good example setups
+
+# 04. aws RDS
+
+# 06. MULTI-CLOUD TERRAFORM
+
+# 07. SCALED DEPLOYMENTS WITH NOMAD
 
 
+# DESCOPED
+## 05. [including ANSIBLE provisioner](readme/README01c.md)
+https://alex.dzyoba.com/blog/terraform-ansible/  + infrastructure test
 
-
-# 1 COMBINATION IN DETAIL
-
-
-# handle change in terraform state
-# use a proper terminal: TODO setup requirements in mac (vi, cmd, ...)
-# naming convention
-
-
-
-# OPTIONAL/LATER
-
-
-
-## 01b. [including CONSUL](readme/README01b.md)
-TODO SERVICE MESH
-https://www.terraform.io/intro/getting-started/modules.html and https://www.terraform.io/intro/getting-started/remote.html and https://www.terraform.io/intro/examples/consul.html
-
-## 01c. [including ANSIBLE provisioner](readme/README01c.md)
-TODO https://alex.dzyoba.com/blog/terraform-ansible/  + infrastructure test
-
-## MULTI-CLOUD TERRAFORM
-TODO
-
-## SCALED DEPLOYMENTS WITH NOMAD
-TODO
+# TEMPORARILY DESCOPED
+## Amazon RDS
+https://aws.amazon.com/blogs/aws/category/amazon-rds/
