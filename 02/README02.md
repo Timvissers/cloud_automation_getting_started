@@ -19,7 +19,7 @@ The configuration for this scenario includes the following:
 
 Security groups control inbound and outbound traffic for your instances, and network ACLs control inbound and outbound traffic for your subnets. In most cases, security groups can meet your needs
 
-### a custom security group
+### A custom security group
 
 ## Scenario 2: VPC with Public and Private Subnets (NAT)
 
@@ -39,17 +39,6 @@ The configuration for this scenario includes the following:
 - A custom route table associated with the public subnet. This route table contains an entry that enables instances in the subnet to communicate with other instances in the VPC over IPv4, and an entry that enables instances in the subnet to communicate directly with the Internet over IPv4.
 - The main route table associated with the private subnet. The route table contains an entry that enables instances in the subnet to communicate with other instances in the VPC over IPv4, and an entry that enables instances in the subnet to communicate with the Internet through the NAT gateway over IPv4.
 
+## A nice example to investigate
 
-
-
-
-
-
-
-
-## bastion
-
-
-
-
-
+https://github.com/aws-quickstart/quickstart-aws-vpc/tree/eafb0480e3f081c0b2dbadba5c76c28e64967467
