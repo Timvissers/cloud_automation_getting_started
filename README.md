@@ -16,9 +16,25 @@
 
 ## 22. [DOCKER FOR AWS + SWARMKIT](22/README.md)
 
+## 23. [KUBERNETES ON CLOUD - PROVIDER INDEPENDENT: RANCHER/RKE](23/README/md)
 
 
 
+
+
+
+
+
+
+## 24. [KUBERNETES ON CLOUD - HOSTED SOLUTIONS: EKS](24/README/md)
+
+https://aws.amazon.com/blogs/aws/amazon-eks-now-generally-available/
+
+
+
+## 25. USING KUBERNETES
+
+## 26. KUBERNETES CI/CD + using it
 
 
 # KUBERNETES + AWS
