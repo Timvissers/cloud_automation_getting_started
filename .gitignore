@@ -2,3 +2,4 @@
 .terraform
 *.backup
 *.tfstate       # should be in a remote backend
+24/eks
